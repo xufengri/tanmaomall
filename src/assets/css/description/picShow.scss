@@ -1,0 +1,42 @@
+.commodity-left {
+    height: 536px;
+    background-color: #fff;
+    .shops-picture {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 446px;
+      .shops-picture-img {
+        width: 446px;
+        height: 446px;
+      }
+    }
+    .shops-picture-menu {
+      .menu {
+        font-size: 0;
+        display: flex;
+        .menu-item {
+          width: 80px;
+          height: 80px;
+          margin-top: 10px;
+          margin-right: 10px;
+          font-size: 0;
+          box-sizing: border-box;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          .item-pic {
+            display: inline-block;
+            &,
+            .item-pic-img {
+              width: 76px;
+              height: 76px;
+            }
+          }
+          &.j-select {
+            border: 2px solid #000;
+          }
+        }
+      }
+    }
+  }

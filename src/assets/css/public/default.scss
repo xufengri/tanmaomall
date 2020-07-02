@@ -1,0 +1,18 @@
+.default-page {
+  font-size: 12px;
+  -webkit-font-smoothing: antialiased;
+  font-family: "-apple-system", BlinkMacSystemFont, Roboto, "Helvetica Neue",
+    "MIcrosoft YaHei", sans-serif !important;
+  background-color: #f8f8f8;
+  .container {
+    .header,
+    .main,
+    .footer {
+      padding: 0;
+      height: auto !important;
+    }
+  }
+  .main {
+    overflow: visible;
+  }
+}

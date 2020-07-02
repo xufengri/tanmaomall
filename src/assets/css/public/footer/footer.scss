@@ -1,0 +1,59 @@
+.shop-footer {
+    width: auto;
+    border-top: 1px solid #D1D7DC;
+    margin: 10px auto;
+    margin-bottom: 0;
+    text-align: center;
+    background-color: #fff;
+    .footer-content {
+        width: auto;
+        .top {
+            width: 1190px;
+            height: 100px;
+            margin: 25px auto;
+            background-image: url("/images/footer_service.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .middle {
+            width: 1190px;
+            height: 150px;
+            border-top: 1px solid #D1D7DC;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-around;
+            padding-top: 20px;
+            .guide {
+                .guide-title {
+                    color: #646464;
+                    font-size: 16px;
+                    font-weight: 700;
+                }
+                .guide-content {
+                    a {
+                        padding-top: 5px;
+                        display: block;
+                        color: #8b8b8b;
+                        text-decoration: none;
+                        text-align: left;
+                        &:hover {
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+        }
+        .bottom {
+            width: auto;
+            height: 120px;
+            background-color: #000;
+            border-top: 3px solid #FF0036;
+            .recommend {
+                width: 1190px;
+                margin: 0 auto;
+                padding: 15px 0;
+                color: #fff;
+            }
+        }
+    }
+}

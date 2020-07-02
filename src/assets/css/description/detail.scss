@@ -1,0 +1,43 @@
+.detail {
+    width: 100%;
+    padding: 10px 20px 0;
+    .col-master {
+      width: 50%;
+      // height: 130px;
+      padding: 30px 0;
+      margin-left: 20px;
+      box-sizing: border-box;
+      font-size: 14px;
+      border-bottom: 1px solid #e3e3e3;
+      .rate-content {
+        width: auto;
+        padding-bottom: 20px;
+      }
+      .rate-data {
+        width: auto;
+        height: 20px;
+        font-size: 12px;
+      }
+    }
+    .col-meta {
+      width: 35%;
+      text-align: center;
+      color: #999;
+      .rate-sku {
+        p {
+          padding: 3px 0;
+        }
+      }
+    }
+    .col-author {
+      width: 15%;
+      text-align: center;
+      .rate-user-info {
+        font-size: 14px;
+      }
+    }
+  }
+  .turn-page {
+    display: flex;
+    justify-content: flex-end;
+  }

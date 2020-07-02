@@ -1,0 +1,53 @@
+.shops-introduce {
+    height: 600px;
+    // background-color: red;
+    .introduce-wrap {
+      width: 95%;
+      height: 200px;
+      background: #fff;
+      box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.12),
+        0 0 6px 0 rgba(0, 0, 0, 0.04);
+      .introduce-wrap-top {
+        text-align: center;
+        span {
+          display: inline-block;
+          padding: 10px 0;
+          font-size: 16px;
+          font-weight: 700;
+        }
+      }
+      .introduce-wrap-bottom {
+        .storeNameYear {
+          padding: 30px 5px;
+          span{
+            font-size: 14px;
+            font-weight: 700;
+            color: #999;
+          }
+          span:nth-of-type(1) {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            line-height: 20px;
+            text-align: center;
+            color: #eee;
+            background-color: #f00;
+            margin-right: 10px;
+            font-size: 12px;
+            font-weight: 500;
+          }
+        }
+        .storeName-btn {
+          text-align: center;
+          button {
+            width: 80px;
+            padding: 12px 0;
+          }
+          button:nth-of-type(1) {
+            background-color: #000;
+            color: #fff;
+          }
+        }
+      }
+    }
+  }

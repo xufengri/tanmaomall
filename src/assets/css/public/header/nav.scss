@@ -1,0 +1,52 @@
+.nav {
+  .el-menu-demo {
+    height: 26px;
+    .submenu {
+      line-height: 26px;
+      height: 26px;
+      font-size: 12px !important;
+      .el-submenu__title {
+        line-height: 26px !important;
+        height: 26px !important;
+        font-size: 12px !important;
+      }
+      &.is-opened .el-submenu__title {
+        background-color: #f2f2f2 !important;
+      }
+      & .el-submenu__title:hover {
+        background-color: #f2f2f2 !important;
+      }
+      .el-icon-shopping-cart-full,
+      .el-icon-mobile-phone {
+        margin: 0;
+        color: #ff0036;
+      }
+    }
+    .cart {
+      .el-badge__content {
+        right: 1px;
+        top: 8px;
+        z-index: 999;
+        padding: 0 2px;
+        border: 1px solid #ffffff;
+      }
+    }
+    .el-submenu>div {
+      border-bottom: none !important;
+    }
+    .el-menu-item {
+      padding: 0 10px;
+      border-bottom: none !important;
+      &:hover {
+        background-color: #f2f2f2 !important;
+      }
+    }
+    .shu {
+      display: inline-block;
+      line-height: 26px;
+      width: 1px;
+      height: 15px;
+      background-color: #ccc;
+    }
+  }
+}

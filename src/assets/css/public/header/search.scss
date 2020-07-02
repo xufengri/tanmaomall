@@ -1,0 +1,53 @@
+.search {
+    width: auto;
+    height: 85px;
+    .search-container {
+      width: 1190px;
+      margin: 0 auto;
+      height: 130px;
+      display: flex;
+      align-items: center;
+      .logo {
+        a {
+          width: 240px;
+          height: 130px;
+          display: block;
+          font-size: 22px;
+          overflow: hidden;
+          position: relative;
+        }
+        .logoPic {
+          position: absolute;
+          display: block;
+          top: 0;
+          cursor: pointer;
+          background: 0 0;
+          text-decoration: none;
+          font-size: 140px;
+          height: 76px;
+          width: 240px;
+          overflow: hidden;
+          background-image: url("http://img.alicdn.com/tfs/TB1MaLKRXXXXXaWXFXXXXXXXXXX-480-260.png");
+          background-size: 240px 130px;
+        }
+      }
+      .input-content {
+        .search-input {
+          width: 500px;
+          .el-input__inner {
+            border-top-right-radius: 0;
+            border-bottom-right-radius: 0;
+            border-color: #ff0036;
+          }
+        }
+        .search-btn {
+          height: 40px;
+          border-top-left-radius: 0;
+          border-bottom-left-radius: 0;
+          border-color: #ff0036;
+          background-color: #ff0036;
+        }
+      }
+    }
+  }
+  

@@ -1,0 +1,98 @@
+.search {
+  width: auto;
+  height: 85px;
+  .search-container {
+    width: 1190px;
+    margin: 0 auto;
+    height: 85px;
+    display: flex;
+    align-items: center;
+    .logo {
+      a {
+        width: 145px;
+        height: 30px;
+        display: block;
+        font-size: 22px;
+        overflow: hidden;
+        position: relative;
+      }
+      .logoPic {
+        position: absolute;
+        display: block;
+        top: 0;
+        cursor: pointer;
+        background: 0 0;
+        text-decoration: none;
+        font-size: 140px;
+        height: 26px;
+        width: 142px;
+        overflow: hidden;
+        background-image: url("http://img.alicdn.com/tfs/TB11ojWRXXXXXafaFXXXXXXXXXX-190-27.png");
+        background-size: 100% 100%;
+      }
+    }
+    .parting-line {
+      display: inline-block;
+      border-left: 1px solid #f0f0f0;
+      height: 38px;
+    }
+    .store-name {
+      font-size: 16px;
+      margin: 0 15px;
+    }
+    .mobile-client {
+      height: 85px;
+      display: flex;
+      align-items: center;
+      margin-left: 15px;
+      font-size: 16px;
+      .mobile {
+        // height: 85px;
+        line-height: 85px;
+        position: relative;
+        &:hover {
+          .el-icon--right {
+            transform: rotate(180deg);
+          }
+        }
+        &:hover .QR-code {
+          display: block;
+        }
+        .QR-code {
+          position: absolute;
+          top: 80px;
+          z-index: 9999;
+          height: 178px;
+          width: 160px;
+          overflow: hidden;
+          border: 1px solid #e4e4e4;
+          background: #fff;
+          text-align: center;
+          display: none;
+          img {
+            margin-top: 20px;
+          }
+        }
+      }
+
+      
+    }
+    .input-content {
+      .search-input {
+        width: 400px;
+        .el-input__inner {
+          border-top-right-radius: 0;
+          border-bottom-right-radius: 0;
+          border-color: #ff0036;
+        }
+      }
+      .search-btn {
+        height: 40px;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        border-color: #ff0036;
+        background-color: #ff0036;
+      }
+    }
+  }
+}
